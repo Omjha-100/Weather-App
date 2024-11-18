@@ -1,0 +1,21 @@
+.more{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.more_btn{
+    margin-top:10px;
+    padding: 5px 50px;
+    border-radius: 50px;
+    border:none;
+    background-color: whitesmoke;
+    color:grey;
+}
+.more_btn:hover{
+    color:black;
+    transform:scale(1.05);
+    cursor: pointer;
+}

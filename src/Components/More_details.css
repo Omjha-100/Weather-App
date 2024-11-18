@@ -1,0 +1,15 @@
+.temp_details,.other{
+    display:flex;
+    justify-content: space-between;
+}
+.temp_details span,.other span{
+    font-size: 15px;
+    width:35%;
+    /* border: 1px solid red; */
+    color:whitesmoke;
+}
+.more_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
